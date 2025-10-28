@@ -1,14 +1,14 @@
 <template>
-    <ComicsComponent/>
+    <SumaCheckbox/>
 </template>
 
 <script>
-import ComicsComponent from './components/ComicsComponent.vue';
+import SumaCheckbox from './components/SumaCheckbox.vue';
 
 export default {
   name: 'App',
   components: {
-    ComicsComponent,
+    SumaCheckbox,
   }
 }
 </script>
