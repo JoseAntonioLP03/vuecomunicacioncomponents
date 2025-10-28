@@ -23,6 +23,7 @@
         <div id="comics" v-for="(comic,index) in comics" :key="comic">
             <ComicComponent :comic="comic" :index="index" v-on:seleccionarFavorito="seleccionarFavorito" v-on:deleteComic="deleteComic"/>
         </div>
+        <!-- COMENTARIO -->
     </div>
 </template>
 
