@@ -1,14 +1,15 @@
 <template>
-    <SumaCheckbox/>
+    <MenuTablaMultiplicar/>
+    <router-view></router-view>
 </template>
 
 <script>
-import SumaCheckbox from './components/SumaCheckbox.vue';
+import MenuTablaMultiplicar from './components/MenuTablaMultiplicar.vue';
 
 export default {
   name: 'App',
   components: {
-    SumaCheckbox,
+    MenuTablaMultiplicar,
   }
 }
 </script>
